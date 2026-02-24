@@ -103,7 +103,7 @@ function App() {
                   <p>
                     <b>Tánctanár:</b> {course.instructor}
                   </p>
-                  <button onClick={() => handleApply(course.id)}>
+                  <button className="gomb" onClick={() => handleApply(course.id)}>
                     Jelentkezés
                   </button>
                   {applyStatus[course.id] && (
