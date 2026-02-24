@@ -1,0 +1,35 @@
+a, p, h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(37, 125, 197);
+}
+
+.main {
+    margin-left: 40px;
+}
+
+#Elérhetőség {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    margin-left: 250px;
+}
+
+button {
+    background-color: gray;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.course-card {
+    margin-bottom: 25px;
+}
